@@ -1,5 +1,5 @@
-Rails.application.routes.draw do
+# This file is used by Rack-based servers to start the application.
 
-root 'application#hello'
+require_relative 'config/environment'
 
-end
+run Rails.application
