@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-  test "should get login" do
-    get static_pages_login_url
+  test "should get signup" do
+    get static_pages_signup_url
     assert_response :success
   end
 
